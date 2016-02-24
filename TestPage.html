@@ -13,9 +13,18 @@
 	</div>
 	<hr />
 	
-	<h2>There is some great stuff here</h2>
+	<h2>Here is a brief description on how to use CSS "class" & "id"</h2>
 	<div class="indented">
-		<p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p><p>filler text</p>
+		<p>A class is added to any HTML element (such as h1, h2, p, div, section, ul, li, span, etc...).  This gives you the ability to add a label to the element - or a "box" for our analogy.  Then in the css file you can say "Any boxes with this label should look like this...".<br /><b>KEY NOTE</b>: You can have as many elements with the same class as you would like, but you can have only ONE element with the same id.  For example you can label as many div elements with the class "indent", but I you can only have one div tag with the id "navigation".</p>
+		<p>Here is an example of how to add a class to a div element:<br />
+		&lt;div class=&quot;indented&quot;&gt;some stuff here&lt;/div&gt;</p>
+		<p>In the CSS file here is how you can modify any element with that class:<br />
+		.indent{<br />  margin:10px;<br />  background-color:red;<br />}</p>
+		<p>Here is an example of how to add an id to a div element:<br />
+		&lt;div id=&quot;navigation&quot;&gt;my navigation menu here&lt;/div&gt;</p>
+		<p>In the CSS file here is how you can modify any element with that class:<br />
+		#indent{<br />  margin:10px;<br />  background-color:red;<br />}</p>
+		<p>Notice the main difference?  Classes must have "." in the css while id's have "#"</p>
 	</div>
 	<h2 id="t1">#1 Spot Here<a class="topTag" href="#top">Back to Top</a></h2>
 	<div class="indented">
