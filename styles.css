@@ -1,0 +1,47 @@
+/* Comments here */
+body{
+  background-color:#adadad;
+}
+
+.indented{
+  margin-left:15px;
+  border:1px dashed gray;
+  padding: 8px;
+}
+
+p{
+  margin-top:0px;
+}
+
+.topTag{
+  float:right;
+  font-size:initial;
+  font-weight:normal;
+}
+
+#footer{
+  background-color:#bdbdbd;
+  padding:20px 2px;
+}
+
+.nav{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  padding: 3px 3px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:focus{
+	color:white;
+}
