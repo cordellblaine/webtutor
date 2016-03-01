@@ -30,6 +30,15 @@ p{
   padding: 3px 3px;
 }
 
+.image{
+  width: 50%;
+  max-width: 500px;
+  min-width: 50px;
+  border: 1px solid black;
+  float: left;
+  margin: 0px 8px 4px 0px;
+}
+
 a:link {
     color: red;
 }
